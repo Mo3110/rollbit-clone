@@ -1,0 +1,64 @@
+.tabs {
+    margin-top: 2px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #1a1d29;
+    
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    background-color: #1a1d29;
+    color: white;
+    border: #1a1d29;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background-color: #676c80;
+    color: #1a1d29;
+  }
+  
+  .tab-content {
+    display: none;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  .faded {
+    opacity: 0.5;
+  }
+  
+  .table-container {
+    margin-top: 5px;
+  }
+  
+  /* Add any additional styles as needed */
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #3d3b3b;
+    border-top: 1px solid #3d3b3b;
+    color: white;
+  }
+  
+  th {
+    background-color: #6d7286;
+    color: #6d7286;
+    color: white;
+  }
+  
+  tr.faded {
+    opacity: 0.5;
+  }
+  
